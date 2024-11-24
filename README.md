@@ -14,16 +14,16 @@
   - HTML5;
   - CSS3;
   - React.js.
-
+    
 - **Back-end**:
   - Integração com APIs de IA para geração de perguntas.
-  
+    
 - **Outras ferramentas**:
   - Gerenciamento de estado com React useState;
   - LocalStorage para o armazenamento do histórico.
 
 ## 📸 Demonstração
-[imagem-projeto]()
+![imagem do projeto](https://github.com/anahmartins/teach.me/blob/main/src/assets/CT%20-%20Teach.me.jpeg?raw=true)
 
 ## 🖥️ Como Executar o Projeto
 
@@ -36,7 +36,39 @@ Siga os passos abaixo para executar o **Teach Me** em sua máquina local:
 
 ### Passos para execução
 
-1. **Clone este repositório**  
-   No terminal, execute o comando abaixo para clonar o projeto:  
+1. **Clone este repositório** 
+   No terminal, execute o comando abaixo para clonar o projeto:
+   
    ```bash
-   git clone https://github.com/seu-usuario/teach-me.git
+   git clone https://github.com/anahmartins/teach-me.git
+
+3. **Acesse o diretório do projeto**
+   Navegue até a pasta do projeto:
+
+   ```bash
+   cd teach-me
+
+5. **Instale as dependências**
+  Utilize o npm para instalar as dependências do projeto:
+
+   ```bash
+   npm install
+    ```
+
+4. **Adicione a uma chave própria da OpenAI**
+  No arquivo **openai.ts** no diretório ./src/api/openai.ts substitua "``MINHA CHEVA OPENAI``" pela sua chave da API da    OpenAI:
+
+    ```bash
+    apiKey: "MINHA CHAVE OPENAI"
+    ```
+
+5. **Inicie o servidor local**
+  Execute o seguinte comando para iniciar a aplicação:
+
+    ```bash
+    npm run dev
+    ```
+    
+## 🤝 Contribuições
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
