@@ -115,7 +115,8 @@ function App() {
 
             {chat[1] && (
               <div className="question">
-                <h2><img src="./assets/questions.svg" />Pergunta</h2>
+                <h2><img src="./assets/questions.svg"
+                />Pergunta</h2>
                   <p>{chat[1].content}</p>
               </div>
             )}
@@ -137,7 +138,7 @@ function App() {
               </div>
             </div>
             )}
-
+            
             {Loading && (
                 <ThreeDots
                   visible={true}
