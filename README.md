@@ -31,39 +31,40 @@ Siga os passos abaixo para executar o **Teach Me** em sua máquina local:
 
 ### Pré-requisitos
 
-- Node.js (versão 14 ou superior)
-- npm (gerenciador de pacotes do Node.js)
+- Node.js (versão 14 ou superior);
+- npm (gerenciador de pacotes do Node.js);
+- Chave API OpenAI.
 
 ### Passos para execução
 
-1. **Clone este repositório** 
+1. **Clone este repositório** <br>
    No terminal, execute o comando abaixo para clonar o projeto:
    
    ```bash
    git clone https://github.com/anahmartins/teach-me.git
 
-3. **Acesse o diretório do projeto**
+3. **Acesse o diretório do projeto** <br>
    Navegue até a pasta do projeto:
 
    ```bash
    cd teach-me
-
-5. **Instale as dependências**
+   
+4. **Instale as dependências** <br>
   Utilize o npm para instalar as dependências do projeto:
 
    ```bash
    npm install
     ```
 
-4. **Adicione a uma chave própria da OpenAI**
-  No arquivo **openai.ts** no diretório ./src/api/openai.ts substitua "``MINHA CHEVA OPENAI``" pela sua chave da API da    OpenAI:
+5. **Adicione a uma chave própria da OpenAI** <br>
+   No arquivo **openai.ts** no diretório ./src/api/openai.ts substitua "``MINHA CHEVA OPENAI``" pela sua chave da API da    OpenAI:
 
     ```bash
     apiKey: "MINHA CHAVE OPENAI"
     ```
 
-5. **Inicie o servidor local**
-  Execute o seguinte comando para iniciar a aplicação:
+6. **Inicie o servidor local** <br>
+   Execute o seguinte comando para iniciar a aplicação:
 
     ```bash
     npm run dev
